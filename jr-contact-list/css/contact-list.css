@@ -1,0 +1,49 @@
+/* Add your custom styles here */
+.taglist-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.taglist-container input {
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+.taglist-suggestions {
+    border: 1px solid #ccc;
+    border-top: none;
+    background: #fff;
+    position: absolute;
+    z-index: 1000;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 200px;
+}
+
+.taglist-suggestions div {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.taglist-suggestions div:hover {
+    background-color: #ddd;
+}
+
+.taglist-tag {
+    background: #0073aa;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.taglist-remove {
+    margin-left: 5px;
+    cursor: pointer;
+}
